@@ -1,0 +1,380 @@
+
+:root {
+    --black: #252525;
+    --light-gray:  #656565;
+    --white: #FFF;
+    --green: #8CC461;
+    --dark-green: #004429;
+    --yellow: #FFD600;
+    --red: #FF0000;
+    --blue: #0074B6;
+    --violet: #BD00FF;
+    --orange: #FFA943;
+    --green-gray: #000000A3;
+    --gray42: #6B6B6B;
+}
+
+body {
+    background: var(--green);
+    /* width: 100%;
+    height: 100%; */
+  }
+
+  .main {
+    align-content: center;
+  }
+  
+  .rps {
+    width: 800px;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 540px;
+    border: 2px solid var(--white);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .para1 {
+    color: #FFF;
+    font-style: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46px;
+    padding-left: 20px;
+    margin-top: 15px;
+  }
+  
+  .yourscore, .cmpscore {
+    width: 139px;
+    height: 128px;
+    border-radius: 9px;
+    border: 2px solid var(--white);
+    background-color: var(--white);
+  }
+
+  #cmpScoreId {
+    margin-left: 300px;
+  }
+
+  #yourScoreId {
+    margin-left: 40px;
+  }
+
+  .yourpara {
+    height: 0px;
+    font-style: Roboto;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--light-gray);
+    text-align: center;
+  }
+
+  .score {
+    font-style: Roboto;
+    font-size: 60px;
+    text-align: center;
+    color: var(--black);
+  }
+
+.secondMain {
+  display: flex;
+  flex-direction: row;
+  margin-left: 700px;
+  margin-top: 130px;
+ }
+
+.mainDiv1 {
+  display: flex;
+  flex-flow: column;
+ }
+
+#imgDiv1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgs {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: var(--white);
+  align-items: center;
+  }
+
+  #imgsRock {
+    border: 16px solid var(--blue);
+  }
+
+  #imgsScissor {
+    border: 16px solid var(--violet);
+  }
+  
+  #imgsPaper {
+    border: 16px solid var(--orange);
+  }
+
+  #rock {
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  
+  #scissor {
+    margin-top: 25px;
+    margin-left: 35px;
+    border-color: var(--violet);
+  }
+  
+  #paper {
+    margin-top: 20px;
+    margin-left: 18px;
+    border-color: var(--orange);
+  }
+  
+  .lines {
+    border-top: 15px solid var(--green-gray);
+  } 
+
+  #topLine {
+    width: 133px;
+    align-self: center;
+  }
+
+  #imgDiv2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  
+  #rightLine {
+    width: 115px;
+    transform: rotate(-60deg);
+    margin-left: 25px;
+    align-self: center;
+  }
+  
+  #leftLine {
+    width: 115px;
+    transform: rotate(58deg);
+    margin-left: 82px;
+  }
+
+#imgDiv3 {
+  margin-left: 139px;
+  margin-top:  28px;
+}
+
+#gameRulesId {
+    background: var(--dark-green);
+    width: 278px;
+    height: 325px;
+    margin-top: 80px;
+    margin-left: 400px;
+    border-radius: 13px;
+    border: 7px solid var(--white);
+   }
+
+ #gameRuleh3 {
+    width: 156px;
+    height: 27px;
+    font-style: Roboto;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 33px;
+    color: var(--white);
+    padding-left: 61px;
+  }
+
+.gameRuleList {
+  width: 211px;
+  height: 27px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--white);
+}
+
+li::marker{
+  color: var(--yellow);
+}
+
+#exitRule {
+  width: 50px;
+  height: 50px;
+  background: var(--red);
+  border: 5px solid var(--white);
+  border-radius: 50%;
+  margin-left: -30px;
+  margin-top: 45px;
+}
+
+#exitIcon {
+  margin-top: 10px;
+  margin-left: 13px;
+}
+
+#rules {
+  width: 119px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.rnBtn {
+  border-radius: 10px;
+  border: 2px solid var(--white);
+  width: 119px;
+  font-size: 21px;
+  font-style: Roboto;
+  color: var(--white);
+  background: var(--green);
+}
+
+#rulesBtn1{
+  /* display: none; */
+}
+
+/*rules and next btn*/
+#rulesWin{
+height: 40px;
+display: flex;
+float: right;
+margin-top: 240px;
+margin-right: 20px;
+}
+
+#nextBtn {
+  margin-left: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+  /* font-weight: 600; */
+  line-height: 17px;
+  letter-spacing: 0.1em;
+}
+
+.wonPage {
+  background: var(--green);
+  width: 100%;
+  height: 100%;
+}
+
+#hurrayimg {
+  margin-top: 150px;
+  /* width: 504px; */
+  margin-left: 650PX;
+}
+
+#cupImg {
+  display: block;
+  margin-left: 800px;
+  margin-top: -200px;
+  width: 200px;
+}
+
+#hurrayText {
+  /* width: 464px; */
+  height: 86px;
+  font-family: Roboto;
+  font-size: 91px;
+  font-weight: 600;
+  line-height: 107px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: var(--white);
+}
+
+#youWon {
+  /* width: 457px; */
+height: 48px;
+font-family: Roboto;
+font-size: 41px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.1em;
+text-align: center;
+color: var(--white);
+}
+
+#playAgainBtn {
+  /* width: 174px; */
+  height: 44px;
+  margin-top: 50PX;
+  margin-left: 840px;
+  border-radius: 9px;
+  border: 1px solid var(--white);
+  text-decoration: none;
+
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px ;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: var(--white);
+  color: var(--gray42);
+}
+
+/* won display content */
+#rockWinId {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 150px;
+  margin-left: 600px;
+}
+
+.pickedText {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  padding-left: 12px;
+  padding-bottom: 20px;
+  color: var(--white);
+}
+
+#rockWinTexts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+#youWin {
+font-family: Roboto;
+font-size: 39px;
+font-weight: 800;
+line-height: 46px;
+letter-spacing: 0.1em;
+color: var(--white);
+text-align: center;
+}
+
+#againstPc {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: var(--white);
+}
+
+#playAgainBtnWin {
+  width: 174px;
+  height: 44px;
+  border-radius: 9px;
+  margin-left: 15px;
+  border: 1px solid var(--white);
+  margin-top: 10px;
+}
+

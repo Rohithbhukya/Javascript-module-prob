@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="main">
+        <div class="rps">
+          <h1 class="para1">Rock <br>Paper <br> Sicssors</h1>
+         
+        
+          <div class="cmpscore"  id="cmpScoreId">
+            <p class = "yourpara">COMPUTER <br> SCORE <br>
+                <h1 class="score" id="cmpScr">0</h1>
+            </P>
+          </div>
+
+        <div class="yourscore"  id="yourScoreId">
+          <p class = "yourpara">YOUR <br> SCORE</P>
+            <h1 class="score" id="urScr">0</h1>
+        </div>
+        </div>
+    </div>
+
+    <div class="secondMain"> 
+    <div class="mainDiv1">
+      <div id="imgDiv1">
+        <div class="imgs" id="imgsRock">
+          <img id="rock" src="images/rock.png">
+        </div>
+        <div class="lines" id="topLine">
+        </div>
+        <div class="imgs" id="imgsScissor">   
+          <img id="scissor" src="images/scissor.png">
+        </div>
+      </div>
+     
+     <div id="imgDiv2">
+      <div class="lines" id="leftLine"></div>
+      <div class="lines" id="rightLine"></div>
+      </div>
+
+      <div id="imgDiv3">
+        <div class="imgs" id="imgsPaper"> 
+          <img id="paper" src="images/paper.png">
+        </div>
+      </div>
+  </div>
+ 
+  <div id="gameRulesId">
+    <h3 id="gameRuleh3">Game Rules</h3>
+    <ul class="gameRuleList" type="square">
+      <li>Rock beats scissors, scissors beat 
+        paper, and paper beats rock.</li>
+        <li>Agree ahead of time whether you'll
+           count off “rock, paper, scissors, 
+           shoot” or just “rock, paper, scissors.”</li>
+        <li>Use rock, paper, scissors to settle 
+          minor decisions or simply play to 
+          pass the time</li>
+        <li>If both players lay down the same 
+          hand, each player lays down another
+           hand</li>
+    </ul>
+  </div>
+
+  <div id="exitRule">
+    <img id="exitIcon" src="images/Xicon.png">
+  </div>
+</div>
+
+<div id="rules">
+  <button class="rnBtn" id="rulesBtn1">RULES</button> 
+</div>
+
+ <!-- won -->
+<div id="rockWinId" >
+  <div>
+    <p class="pickedText" id="youPicked">YOU PICKED</p>
+    <div class="imgs" id="imgsRock">
+      <img id="rock" src="images/rock.png">
+    </div>
+  </div>
+  
+  <div id="rockWinTexts">
+    <div id="youWin">YOU WIN</div>
+    <div id="againstPc">AGAINST PC</div> 
+    <button id="playAgainBtnWin">PLAY AGAIN</button>
+  </div>
+
+  <div>
+  <p class="pickedText" id="pcPicked">PC PICKED</p>
+  <div class="imgs" id="imgsScissor">   
+    <img id="scissor" src="images/scissor.png">
+  </div>
+</div>
+</div>
+
+<div id="rulesWin" style="display: none;">
+  <button class="rnBtn" id="rulesBtn">RULES</button> 
+  <a href="hurray.html" class="rnBtn" id="nextBtn">NEXT</a>
+</div>
+ 
+
+
+</body>
+</html>
