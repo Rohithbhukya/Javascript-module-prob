@@ -10,8 +10,7 @@ const exitIcon = document.querySelector("#exitIcon");
 const gameRulesId = document.querySelector("#gameRulesId");
 const rnBtn = document.querySelector("#rnBtn");
 
-
-// rockWinId.style.display = "none";
+ rockWinId.style.display = "none";
 rock.addEventListener("click", () => {
     secondMain.style.display = "none";
     rockWinId.style.display = "block";
